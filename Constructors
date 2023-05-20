@@ -1,0 +1,68 @@
+A constructor is a unique function that gets called automatically when an object is created of a class. 
+The main purpose of a constructor is to initialize or assign values to the data members of that class.
+
+Syntax of Python Constructor:
+      def __init__(self):
+            #initializations
+            
+Rules of Python Constructor:
+      It starts with the def keyword, like all other functions in Python.
+      It is followed by the word init, which is prefixed and suffixed with double underscores with a pair of brackets, i.e., __init__().
+      It takes an argument called self, assigning values to the variables.
+      
+Types of Constructors in Python:
+      1. Parameterized Constructor
+      2. Non-Parameterized Constructor
+      3. Default Constructor
+1. Parameterized Constructor in Python:
+ 
+      When the constructor accepts arguments along with self, it is known as parameterized constructor.
+
+      These arguments can be used inside the class to assign the values to the data members. 
+   
+ Example :
+       class Family:  
+       # Constructor - parameterized  
+       members=5
+       def __init__(self, count):  
+           print("This is parametrized constructor")  
+           self.members = count
+       def show(self):  
+           print("No. of members is", self.members)  
+        
+ 2. Non-Parameterized Constructor in Python:
+ 
+       When the constructor doesn't accept any arguments from the object and has only one argument, self, in the constructor, it is known as a non-parameterized constructor.
+
+       This can be used to re-assign a value inside the constructor. 
+       
+ Example :
+      
+       class Fruits:
+            favourite = "Apple"
+
+            # non-parameterized constructor
+            def __init__(self):
+                 self.favourite = "Orange"
+
+            # a method
+            def show(self):
+                 print(self.favourite)
+                 
+ 3. Default Constructor in Python:
+ 
+       When you do not write the constructor in the class created, Python itself creates a constructor during the compilation of the program.
+
+       It generates an empty constructor that has no code in it.      
+       
+ Example:
+       class Assignments:
+            check= "not done"
+            # a method
+            def is_done(self):
+                 print(self.check)
+
+
+Advantages:
+1.The advantage of constructor is to initialize objects. 
+2.Multiple ways to initialize objects according to the number of arguments passes at declaration. 
