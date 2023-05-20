@@ -1,0 +1,37 @@
+what is Encapsulation :
+
+     Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. 
+In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class
+
+Types of Encapsulation in OOPs:
+
+1. Data Member Encapsulation
+2. Method Encapsulation
+3. Class Encapsulation
+
+Real-Life Example of Encapsulation:
+     
+     Let's look at a real-life example to better comprehend the notion of encapsulation.
+     Consider a Capsule as an example (Medicine).
+     
+Advantages of Encapsulation:
+
+Data Protection:
+The program runner will not be able to identify or see which methods are present in the code. 
+
+Flexibility: 
+The code which is encapsulated looks more cleaner and flexible, and can be changed as per the needs. 
+
+Reusability:
+The methods can be changed and the code is reusable.
+
+Disadvantages of Encapsulation:
+
+Code Size:
+The length of the code increases drastically in the case of encapsulation as we need to provide all the methods with the specifiers.
+
+More Instructions:
+As the size of the code increases, therefore, you need to provide additional instructions for every method.
+
+Increased code execution:
+Encapsulation results in an increase in the duration of the program execution. It is because more instructions are added to the code therefore they require more time to execute.
