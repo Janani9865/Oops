@@ -1,0 +1,20 @@
+Polymorphism:
+
+      Polymorphism allows us to perform a single action in different ways.
+      In other words, polymorphism allows you to define one interface and have multiple implementations.
+      The word “poly” means many and “morphs” means forms, So it means many forms.
+      
+Example 
+
+Lets consider a person who is working in the company so he is an employee,the same person who is son of his parent 
+the same person have different roles in his life which is called polymorphism.
+
+Advantages of Polymorphism:
+     1.Programmers code can be reused via Polymorphism.
+     2.Supports a single variable name for multiple data types.
+     3.Reduces coupling between different functionalities.
+
+Disadvantages of Polymorphism:
+     1.Polymorphism ends up raising performance issues in real-time.
+     2.Polymorphism reduces the readability of the code.
+     3.Programmers find Polymorphism a little challenging to implement.
