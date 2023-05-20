@@ -1,0 +1,55 @@
+What is Inheritance in Python?
+
+      Inheritance is the ability to ‘inherit’ features or attributes from already written classes into newer classes we make.
+
+      In Python inheritance, new class/es inherits from older class/es. The new class/es copies all the older class's functions and attributes without rewriting the syntax in the new class/es. These new classes are called derived classes, and old ones are called base classes.
+
+      
+
+Syntax:
+
+      class DerivedClass(BaseClass):
+
+           # Class definition
+
+           
+
+Here, DerivedClass is the class that will inherit from the BaseClass. The BaseClass is the class that will serve as the parent or superclass.
+
+Types of Inheritance in Python:
+
+      
+
+      1.Single Inheritance 
+
+      2.Multiple Inheritance 
+
+      3.Multilevel Inheritance 
+
+      4.Hybrid Inheritance 
+
+      5.Hierachical Inheritance 
+
+      
+
+Single Inheritance in Python:
+
+      Single Inheritance is the simplest form of inheritance where a single child class is derived from a single parent class. Due to its candid nature, it is also known as Simple Inheritance.
+
+Multiple Inheritance in Python:
+
+      In multiple inheritance, a single child class is inherited from two or more parent classes. It means the child class has access to all the parent classes' methods and attributes.
+
+Multilevel Inheritance in python :
+
+        a type of Inheritance that involves inheriting a class that has already inherited some other class.
+
+        where the parent class/es itself is derived from another class/es.
+
+Hierarchical Inheritance in Python:
+
+        Hierarchical Inheritance is the right opposite of multiple inheritance. It means that there are multiple derived child classes from a single-parent class.
+
+Hybrid Inheritance in python :
+
+        Hybrid Inheritance is the mixture of two or more different types of inheritance. Here we can have many relationships between parent and child classes with multiple levels.      
